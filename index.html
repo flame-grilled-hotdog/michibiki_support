@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>みちびき プライバシーポリシー</title>
+  <meta name="description" content="ドライブルート提案アプリ『みちびき（MICHIBIKI）』のプライバシーポリシーです。">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --fg: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+      --card: #f9fafb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --fg: #e5e7eb;
+        --muted: #94a3b8;
+        --border: #334155;
+        --accent: #60a5fa;
+        --card: #111827;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+      line-height: 1.8;
+      color: var(--fg);
+      background: var(--bg);
+    }
+    main {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1.35;
+      margin: 0 0 8px;
+    }
+    h2 {
+      font-size: 1.35rem;
+      margin: 40px 0 12px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.08rem;
+      margin: 24px 0 8px;
+    }
+    p, li { font-size: 1rem; }
+    .lead {
+      color: var(--muted);
+      margin-top: 0;
+    }
+    .notice {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 24px 0;
+    }
+    a { color: var(--accent); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th { background: var(--card); }
+    footer {
+      margin-top: 48px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>みちびき（MICHIBIKI）プライバシーポリシー</h1>
+  <p class="lead">制定日：2026年5月12日</p>
+
+  <div class="notice">
+    <p>本プライバシーポリシーは、ドライブルート提案アプリ「みちびき（MICHIBIKI）」（以下「本アプリ」といいます）における利用者情報の取扱いについて説明するものです。</p>
+  </div>
+
+  <h2>1. 取得する情報</h2>
+  <p>本アプリでは、アプリの機能提供、広告配信、広告効果測定、品質改善等のため、以下の情報を取得または利用する場合があります。</p>
+
+  <h3>1.1 本アプリの機能に関連して利用する情報</h3>
+  <ul>
+    <li>現在地、出発地、目的地、経由地、ルート生成に必要な位置情報</li>
+    <li>生成されたルート、履歴、お気に入り、スポット評価など、本アプリ内で保存される情報</li>
+  </ul>
+  <p>上記情報は、MVP時点では原則として利用者の端末内に保存され、開発者が管理するサーバーへ送信されません。ただし、地図表示、経路検索、スポット検索などの機能提供のため、Apple MapKit等の外部サービスへリクエストが送信される場合があります。</p>
+
+  <h3>1.2 広告配信に関連して取得される可能性がある情報</h3>
+  <p>本アプリでは、広告配信のためにGoogle AdMob（Google Mobile Ads SDK）を利用する場合があります。Google Mobile Ads SDKにより、以下の情報が取得される可能性があります。</p>
+  <ul>
+    <li>おおよその位置情報</li>
+    <li>デバイスID等の識別子</li>
+    <li>アプリの操作に関する情報</li>
+    <li>広告表示、広告クリック等の広告データ</li>
+    <li>クラッシュログ等の診断情報</li>
+    <li>起動時間、ハング率、エネルギー使用量等のパフォーマンスデータ</li>
+  </ul>
+
+  <h2>2. 利用目的</h2>
+  <p>取得または利用される情報は、以下の目的で利用されます。</p>
+  <table>
+    <thead>
+      <tr><th>情報の種類</th><th>主な利用目的</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>位置情報、出発地、経由地、ルート情報</td><td>ドライブルートの生成、地図表示、経路案内、周辺スポットの表示</td></tr>
+      <tr><td>履歴、お気に入り、スポット評価</td><td>利用者が過去のルートやスポットを確認・管理するため</td></tr>
+      <tr><td>おおよその位置情報、デバイスID、広告データ、製品の操作</td><td>広告配信、広告効果測定、アナリティクス</td></tr>
+      <tr><td>クラッシュデータ、パフォーマンスデータ</td><td>アプリおよびSDKの安定性向上、品質改善、技術的な問題の把握</td></tr>
+    </tbody>
+  </table>
+
+  <h2>3. 第三者サービスの利用</h2>
+  <p>本アプリでは、以下の第三者サービスを利用する場合があります。各サービスにおける情報の取扱いについては、各事業者が定めるプライバシーポリシー等をご確認ください。</p>
+  <ul>
+    <li>Google AdMob / Google Mobile Ads SDK</li>
+    <li>Apple MapKit</li>
+  </ul>
+  <p>Googleによる情報の取扱いについては、GoogleのプライバシーポリシーおよびGoogle Mobile Ads SDKに関する説明をご確認ください。</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy?hl=ja" rel="noopener noreferrer">Google プライバシーポリシー</a></li>
+    <li><a href="https://developers.google.com/admob/ios/privacy/data-disclosure" rel="noopener noreferrer">Google Mobile Ads SDK のデータ開示に関する説明</a></li>
+  </ul>
+
+  <h2>4. トラッキングについて</h2>
+  <p>MVP時点では、本アプリはAppleのApp Tracking Transparency（ATT）によるトラッキング許可リクエストを実装しない方針です。そのため、IDFAを利用したトラッキングを本アプリから要求しません。</p>
+  <p>将来的に広告配信や広告効果測定の方針を変更し、ATT許可リクエストを実装する場合は、本プライバシーポリシーおよびApp Store Connect上のプライバシー情報を必要に応じて更新します。</p>
+
+  <h2>5. 情報の外部送信</h2>
+  <p>本アプリは、広告配信、地図表示、経路検索、スポット検索等の機能提供のため、利用者の端末から第三者サービスへリクエストを送信する場合があります。送信される情報、利用目的、送信先は、利用する機能や第三者サービスの仕様により異なります。</p>
+
+  <h2>6. 情報の管理</h2>
+  <p>本アプリ内に保存される履歴、お気に入り、スポット評価等の情報は、原則として利用者の端末内に保存されます。利用者は、アプリ内の機能または端末の操作により、これらの情報を削除できる場合があります。</p>
+
+  <h2>7. 未成年者の利用</h2>
+  <p>未成年者が本アプリを利用する場合は、保護者の同意を得たうえで利用してください。</p>
+
+  <h2>8. 免責事項</h2>
+  <p>本アプリからリンクされる第三者サービスまたは外部サイトにおける個人情報の取扱いについて、開発者は責任を負いません。各サービスまたはサイトのプライバシーポリシーをご確認ください。</p>
+
+  <h2>9. プライバシーポリシーの変更</h2>
+  <p>本プライバシーポリシーは、法令、ガイドライン、アプリ機能、利用サービスの変更等に応じて改定される場合があります。重要な変更がある場合は、本アプリ内または本ページ上で告知します。</p>
+
+  <h2>10. お問い合わせ</h2>
+  <p>本プライバシーポリシーに関するお問い合わせは、以下の連絡先までお願いいたします。</p>
+  <p>メールアドレス：<a href="mailto:jota0120@yahoo.co.jp">jota0120@yahoo.co.jp</a></p>
+
+  <footer>
+    <p>&copy; 2026 MICHIBIKI. All rights reserved.</p>
+  </footer>
+</main>
+</body>
+</html>

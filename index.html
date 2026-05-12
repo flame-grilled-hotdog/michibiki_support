@@ -99,10 +99,10 @@
 
   <h3>1.1 本アプリの機能に関連して利用する情報</h3>
   <ul>
-    <li>現在地、出発地、目的地、経由地、ルート生成に必要な位置情報</li>
-    <li>生成されたルート、履歴、お気に入り、スポット評価など、本アプリ内で保存される情報</li>
+    <li>出発地、目的地、経由地検索に必要な位置情報</li>
+    <li>生成されたルートの履歴、お気に入りルート、スポット評価など、本アプリ内で保存される情報</li>
   </ul>
-  <p>上記情報は、MVP時点では原則として利用者の端末内に保存され、開発者が管理するサーバーへ送信されません。ただし、地図表示、経路検索、スポット検索などの機能提供のため、Apple MapKit等の外部サービスへリクエストが送信される場合があります。</p>
+  <p>上記情報は、原則として利用者の端末内に保存され、開発者が管理するサーバーへ送信されません。ただし、地図表示、経路検索、スポット検索などの機能提供のため、Apple MapKit等の外部サービスへリクエストが送信される場合があります。</p>
 
   <h3>1.2 広告配信に関連して取得される可能性がある情報</h3>
   <p>本アプリでは、広告配信のためにGoogle AdMob（Google Mobile Ads SDK）を利用する場合があります。Google Mobile Ads SDKにより、以下の情報が取得される可能性があります。</p>
@@ -134,15 +134,26 @@
   <ul>
     <li>Google AdMob / Google Mobile Ads SDK</li>
     <li>Apple MapKit</li>
+    <li>Apple Maps</li>
+    <li>Google Maps</li>
   </ul>
+  
+  <p>本アプリでは、地図表示、ルート生成、ルート案内、外部マップアプリへの連携等のために、Apple MapKit、Apple Maps、Google Mapsなどの地図関連サービスを利用する場合があります。</p>
+  <p>ユーザーが本アプリから外部マップアプリを開く操作を行った場合、出発地、目的地、経由地、スポット名、緯度経度など、ルート案内に必要な情報が、選択された外部マップアプリまたはその提供事業者に渡される場合があります。外部マップアプリで処理される情報は、各外部サービスのプライバシーポリシーおよび利用規約に従って取り扱われます。</p>
+  
   <p>Googleによる情報の取扱いについては、GoogleのプライバシーポリシーおよびGoogle Mobile Ads SDKに関する説明をご確認ください。</p>
   <ul>
     <li><a href="https://policies.google.com/privacy?hl=ja" rel="noopener noreferrer">Google プライバシーポリシー</a></li>
     <li><a href="https://developers.google.com/admob/ios/privacy/data-disclosure" rel="noopener noreferrer">Google Mobile Ads SDK のデータ開示に関する説明</a></li>
   </ul>
 
+  <p>Appleによる情報の取扱いについては、Appleのプライバシーポリシー等をご確認ください。</p>
+  <ul>
+    <li><a href="https://www.apple.com/jp/legal/privacy/" rel="noopener noreferrer">Apple プライバシーポリシー</a></li>
+  </ul>
+
   <h2>4. トラッキングについて</h2>
-  <p>MVP時点では、本アプリはAppleのApp Tracking Transparency（ATT）によるトラッキング許可リクエストを実装しない方針です。そのため、IDFAを利用したトラッキングを本アプリから要求しません。</p>
+  <p>本アプリはAppleのApp Tracking Transparency（ATT）によるトラッキング許可リクエストを実装しない方針です。そのため、IDFAを利用したトラッキングを本アプリから要求しません。</p>
   <p>将来的に広告配信や広告効果測定の方針を変更し、ATT許可リクエストを実装する場合は、本プライバシーポリシーおよびApp Store Connect上のプライバシー情報を必要に応じて更新します。</p>
 
   <h2>5. 情報の外部送信</h2>
@@ -162,7 +173,7 @@
 
   <h2>10. お問い合わせ</h2>
   <p>本プライバシーポリシーに関するお問い合わせは、以下の連絡先までお願いいたします。</p>
-  <p>メールアドレス：<a href="mailto:jota0120@yahoo.co.jp">jota0120@yahoo.co.jp</a></p>
+  <p>メールアドレス：<a href="mailto:flame.grilled.hotdog@gmail.com">flame.grilled.hotdog@gmail.com</a></p>
 
   <footer>
     <p>&copy; 2026 MICHIBIKI. All rights reserved.</p>
